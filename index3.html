@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+      }
+
+      .right-container {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 900px;
+      }
+
+      .left-container {
+        position: relative;
+        left: 0;
+      }
+
+      .right-container > div {
+        background-color: orange;
+      }
+      .left-container > div {
+        background-color: red;
+      }
+
+      .right-container--1,
+      .right-container--2,
+      .right-container--3 {
+        position: relative;
+      }
+
+      .left-container--1,
+      .left-container--2,
+      .left-container--3 {
+        position: relative;
+      }
+
+      .left-container--2 {
+        left: 700px;
+      }
+
+      .right-container--1 {
+        right: 300px;
+      }
+
+      .right-container--3 {
+        right: 300px;
+      }
+    </style>
+    <link rel="stylesheet" href="geral.css">
+
+
+  </head>
+  <body>
+    <p class="menu-container">
+      <a href="index.html" class="exercise-link">Tarefa 0</a>
+      <a href="index1.html" class="exercise-link">Tarefa 1</a>
+      <a href="index2.html" class="exercise-link">Tarefa 2</a>
+      <a href="#" class="exercise-link">Tarefa 3</a>
+    </p>
+
+      <div class="left-container">
+        <div class="left-container--1"></div>
+        <div class="left-container--2"></div>
+        <div class="left-container--3"></div>
+      </div>
+
+
+      <div class="right-container">
+        <div class="right-container--1"></div>
+        <div class="right-container--2"></div>
+        <div class="right-container--3"></div>
+      </div>
+
+
+  </body>
+</html>
